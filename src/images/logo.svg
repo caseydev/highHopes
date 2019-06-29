@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="171" height="40" viewBox="0 0 171 40">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fa8b6d"/>
+      <stop offset="1" stop-color="#fb627a"/>
+    </linearGradient>
+  </defs>
+  <g id="Logo" transform="translate(-99.405 -14)">
+    <text id="High_Hopes" data-name="High Hopes" transform="translate(209.405 42)" font-size="23" font-family="ArialMT, Arial"><tspan x="-60.089" y="0">High Hopes</tspan></text>
+    <g id="Logo_Mark" data-name="Logo Mark" transform="translate(99.405 14)">
+      <path id="Right" d="M243.445,43.092a20,20,0,0,0-13.871-6.017.121.121,0,0,0-.086.034.118.118,0,0,0-.036.085v1.658a.118.118,0,0,0,.116.118,18.1,18.1,0,0,1,3.571,35.764l.042-16.685h7.9V65a.118.118,0,0,0,.119.118h1.891a.119.119,0,0,0,.119-.118V49.536a.119.119,0,0,0-.119-.118H241.2a.119.119,0,0,0-.119.118v6.576h-7.9V49.536a.119.119,0,0,0-.119-.118h-1.891a.119.119,0,0,0-.119.118L231,75.17a.128.128,0,0,0,0,.023V76.86a.118.118,0,0,0,.119.118h.012a20.063,20.063,0,0,0,18.049-19.905A19.847,19.847,0,0,0,243.445,43.092Z" transform="translate(-209.177 -37.075)" fill="url(#linear-gradient)"/>
+      <path id="Left" d="M113.882,75.642a18.105,18.105,0,0,1-3.509-35.808l-.016,16.739h-7.9V50a.119.119,0,0,0-.119-.118h-1.891a.119.119,0,0,0-.119.118V65.467a.119.119,0,0,0,.119.118h1.891a.118.118,0,0,0,.119-.118V58.51h7.9v6.957a.119.119,0,0,0,.119.118h1.891a.119.119,0,0,0,.119-.118l-.032-27.73a.119.119,0,0,0-.13-.118A20.063,20.063,0,0,0,94.156,57.535a20.064,20.064,0,0,0,19.722,20h0a.119.119,0,0,0,.119-.118V75.76A.119.119,0,0,0,113.882,75.642Z" transform="translate(-94.156 -37.536)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

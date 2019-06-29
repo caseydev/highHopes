@@ -1,0 +1,139 @@
+a {
+  color: #fc7c5d !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+body {
+  background: #F5F7F9 !important;
+}
+.ant-btn {
+  height: auto !important;
+  text-shadow: none !important;
+}
+.ant-btn.ant-btn-primary {
+  background-image: linear-gradient(to right, #FB627A, #FA8B6D);
+  border: 0 !important;
+}
+.header {
+  padding: 15px 0;
+  box-shadow: 0 0 40px rgba(0,0,0,.06);
+  background: #fff;
+}
+
+.header .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header nav {
+  margin-left: auto;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li {
+
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+
+.menu a {
+  color: #828B91 !important;
+}
+
+.menu button {
+  height: auto;
+  margin: 0;
+}
+
+.user-container {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap:  wrap;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.04);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0 !important;
+}
+
+.user-container .left-pos {
+  background: #333;
+  color: #fff;
+  max-width: 50%;
+  flex-basis: 50%;
+  font-size: 20px;
+  padding: 30px;
+  text-align: center;
+  background-image: linear-gradient(to right, #FB627A, #FA8B6D);
+
+  display: flex;align-items: center;justify-content: center;
+}
+
+.user-container .left-pos h1 {
+  color: #fff;
+  font-size: 40px;
+}
+
+.user-container .left-pos .frame {
+  padding-top: 100px;
+}
+
+.user-container .left-pos .frame strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.user-container .ant-form {
+  flex-basis: 50%;
+  max-width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.user-container .ant-form .ant-btn {
+  margin: 0;
+}
+
+.user-container .ant-form-item:last-child {
+  margin-bottom: 0;
+}
+
+.user-container .ant-input {
+  border-color: #DBDEDF;
+  height: 50px;
+  width: 100%;
+  border-radius: 2px;
+  margin: 0;
+}
+
+.ant-form-item.btn-row {
+  margin-bottom: 10px;
+}
+
+.frame-row .or {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.user-container .left-pos .ant-btn {
+  background: #fff;
+  color: #FC7C5D;
+}
+
+.user-container .inner {
+  max-width: 320px;
+  width: 100%;
+  padding: 20px 0;
+}
