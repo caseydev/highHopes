@@ -1,3 +1,186 @@
 .content-section {
   padding: 40px 0;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.user-container.container-sm {
+  display: block;
+  padding: 40px 15px !important;
+  max-width: 770px;
+}
+
+.user-container.container-sm .btn-wrapper {
+  padding: 20px 0;
+}
+
+.input-box {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.input-box .ant-input {
+  width: 60px;
+  margin: 0 10px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  height: 60px;
+  border-radius: 4px;
+}
+
+.content-title {
+  display: block;
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.user-container .note {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.ant-btn.btn-verify {
+  min-width: 180px;
+}
+
+.email-placeholder {
+  cursor: default;
+  font-size: 20px;
+  font-weight: bold;
+  color: #828B91;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.content-big-title {
+  font-size: 22px;
+  display: block;
+  padding: 10px 0;
+}
+
+.selectable-list {
+  margin: 0;
+  padding: 25px 0;
+  list-style: none;
+}
+
+.selectable-list li {
+  padding: 10px 0;
+}
+
+.custom-checkbox {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.custom-checkbox input {
+  opacity: 0;
+}
+
+.custom-checkbox .ant-checkbox-inner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #EDEEEF;
+  border: 0;
+  width: auto;
+  height: auto;
+  border-radius: 4px;
+}
+
+.custom-checkbox .ant-checkbox-checked .ant-checkbox-inner::after {
+  display: none;
+}
+
+.custom-checkbox .ant-checkbox-checked .ant-checkbox-inner::before {
+  right: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+  content: 'check';
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f00c";
+  height: 30px;
+  width: 30px;
+  background: #fff;
+  border-radius: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FB627A;
+}
+
+.custom-checkbox.minimal .ant-checkbox-checked .ant-checkbox-inner::before {
+  display: none;
+}
+
+.custom-checkbox .ant-checkbox-checked::after {
+  display: none;
+}
+
+.custom-checkbox .ant-checkbox {
+  position: static;
+}
+
+.custom-checkbox .ant-checkbox ~ span {
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.custom-checkbox .ant-checkbox-checked ~ span {
+  color: #fff;
+}
+
+.custom-checkbox input:checked ~ .ant-checkbox-inner {
+  background: linear-gradient(to right, #FB627A, #FA8B6D);
+}
+
+.info-slot {
+  padding: 15px 0;
+}
+
+.info-slot .selectable-list {
+  padding: 0;
+}
+
+.selectable-list.inline {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+}
+
+.selectable-list.inline li {
+  padding: 0 5px 5px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.datepicker-row {
+  margin: 0 -10px;
+}
+
+.datepicker-col {
+  margin: 0 10px;
+}
+
+.info-slot .ant-input {
+  max-width: 240px;
+}
+
+.info-inner {
+  max-width: 480px;
+  margin: 0 auto;
+}

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import SliderMenu from "./SliderMenu";
-import "antd/dist/antd.css";
 import {
   Layout,
   Card,

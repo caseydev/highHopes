@@ -1,20 +1,29 @@
 
 a,.dash-header a:hover {
-  color: #fc7c5d !important;
+  color: #fc7c5d;
 }
 a:hover {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 body {
-  background: #F5F7F9 !important;
+  background: #F5F7F9;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .ant-btn {
-  height: 50px !important;
-  text-shadow: none !important;
+  height: 50px;
+  text-shadow: none;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 .ant-btn.ant-btn-primary {
   background-image: linear-gradient(to right, #FB627A, #FA8B6D);
-  border: 0 !important;
+  border: 0;
 }
 .header {
   padding: 15px 0;
@@ -45,11 +54,11 @@ body {
 }
 
 .menu a {
-  color: #828B91 !important;
+  color: #828B91;
 }
 
 .menu .ant-btn {
-  height: 36px !important;
+  height: 36px;
 }
 
 .menu button {
@@ -117,7 +126,7 @@ body {
 
 .ant-input {
   border-color: #DBDEDF;
-  height: 50px !important;
+  height: 50px;
   width: 100%;
   border-radius: 2px;
   margin: 0;
@@ -190,7 +199,7 @@ body {
 }
 
 .dash-header a {
-  color: #ccc !important;
+  color: #ccc;
 }
 
 .dash-block.card-full {
@@ -198,5 +207,5 @@ body {
 }
 
 .dash-block .ant-list-item a {
-  color: #1C1A1D !important;
+  color: #1C1A1D;
 }

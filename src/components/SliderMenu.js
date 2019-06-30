@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import 'antd/dist/antd.css';
 import { Layout, Menu, Icon ,Button } from 'antd';
 const {  Sider } = Layout;
 const { SubMenu } = Menu;
