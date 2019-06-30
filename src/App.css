@@ -1,4 +1,5 @@
-a {
+
+a,.dash-header a:hover {
   color: #fc7c5d !important;
 }
 a:hover {
@@ -8,7 +9,7 @@ body {
   background: #F5F7F9 !important;
 }
 .ant-btn {
-  height: auto !important;
+  height: 50px !important;
   text-shadow: none !important;
 }
 .ant-btn.ant-btn-primary {
@@ -45,6 +46,10 @@ body {
 
 .menu a {
   color: #828B91 !important;
+}
+
+.menu .ant-btn {
+  height: 36px !important;
 }
 
 .menu button {
@@ -110,9 +115,9 @@ body {
   margin-bottom: 0;
 }
 
-.user-container .ant-input {
+.ant-input {
   border-color: #DBDEDF;
-  height: 50px;
+  height: 50px !important;
   width: 100%;
   border-radius: 2px;
   margin: 0;
@@ -136,4 +141,62 @@ body {
   max-width: 320px;
   width: 100%;
   padding: 20px 0;
+}
+
+.ant-form-item-children-icon {
+  display: none;
+}
+
+.container-full {
+  padding: 0 15px;
+}
+
+.user-block  {
+  text-align: center;
+}
+
+.user-block .ant-avatar {
+  display: block;
+  margin: 0 auto 40px;
+}
+
+.user-block .btn-wrapper {
+  padding-top: 30px;
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+}
+
+.user-block .btn-del {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  text-align: center;
+}
+
+.ant-card.dash-block {
+  min-height: calc(50vh - 64px);
+  margin-bottom: 20px;
+}
+
+.ant-card.dash-block:last-child {
+  margin-bottom: 0;
+}
+
+.dash-block .dash-header {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.dash-header a {
+  color: #ccc !important;
+}
+
+.dash-block.card-full {
+  min-height: calc(100vh - 108px);
+}
+
+.dash-block .ant-list-item a {
+  color: #1C1A1D !important;
 }
